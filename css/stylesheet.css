@@ -66,7 +66,7 @@ h1, h3, h4  { /* para los titulos */
     text-decoration: none;
 }
 
-.encabezado__menu__list  a:hover { /* cambia de color cuando pase el menu princial   */
+.encabezado__menu__list  a:hover { /* transiciones de color cuando pase el menu princial   */
 color: #86C3C6;
 }
 
@@ -74,6 +74,10 @@ color: #86C3C6;
     margin: 1% auto;
     height: auto;
     width: min-content;
+    overflow: hidden;
+    transition: all 4s;
+
+
 }
 main { /* para el documento  */
     width: 100%;
@@ -82,9 +86,14 @@ main { /* para el documento  */
   }
   
 .contenido h2 {
-    text-align: center;
+    text-align:center;
+    transition: all 4s; /* Para agregar la propiedad y cambiar el h2 al pasar el mouse  */
+    
 }
+.contenido h2:hover { /* Para agrandar el h2 al pasar el mouse  */
+    transform: scale(2);
 
+}
 .galeria {
     display: flex;
     flex-direction: row;
