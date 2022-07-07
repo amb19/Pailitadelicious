@@ -1,3 +1,5 @@
+@import"variables";
+
 *{ /* para reset */
     margin: 0%;
     padding: 0%;
@@ -11,13 +13,17 @@
 }
 
 .bg-menu {
-    background-color: #6B1762;
+    background-color: $color-principal;
 }
 
+.bg-crs {
+    background-color: $color-fondo;
+    border-radius: 10px;
+}
 
 main { /* para el contenido  */
    
-    border: 10px solid #A05898;
+    border: 10px solid $color-main;
     
   }
 

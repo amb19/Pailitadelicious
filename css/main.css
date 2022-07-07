@@ -1,0 +1,28 @@
+* {
+  /* para reset */
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+.carousel-item {
+  height: 65vh;
+  min-height: 600px; }
+
+.bg-menu {
+  background-color: #6B1762; }
+
+.bg-crs {
+  background-color: #68a9af7a;
+  border-radius: 10px; }
+
+main {
+  /* para el contenido  */
+  border: 10px solid #a05897; }
+
+.contacto {
+  /* para el formulario */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
