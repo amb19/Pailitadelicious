@@ -2,12 +2,11 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-} 
+}
 
 .carousel-item {
     height: 65vh;
-    min-height: 600px;
-    
+    min-height: 600px;  
 }
 
 .bg-menu {
@@ -16,9 +15,7 @@
 
 
 main { /* para el contenido  */
-   
     border: 10px solid #A05898;
-    
   }
 
 .contacto{ /* para el formulario */
