@@ -2,128 +2,26 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-} 
+}
 
-.container {/* para el grid del index */
-    display: grid; 
-    grid-template-columns:100%;
-    grid-template-rows: 10% 80% auto;
-    grid-template-areas:
-        "cmenu"
-        "ccuerpo"
-        "cpie";
+.carousel-item {
+    height: 65vh;
+    min-height: 600px;  
 }
-  
-.cmenu {
-    grid-area: cmenu;
-    background-color: #6B1762 ;
-}
-  
-.ccuerpo {
-    grid-area: ccuerpo;
-    background-color: #A3B5B5;
-}
-  
-.cpie {
-    grid-area: cpie;
+
+.bg-menu {
     background-color: #6B1762;
 }
-  
-ul {
-    list-style: none ;
-}
-
-.encabezado {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-.encabezado__logo {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
-h1, h3, h4  { /* para los titulos */
-    color: white;
-    font-family: 'Indie Flower', cursive;
-    font-weight: 100;
-
-}  
-
-.encabezado__menu{ /* para la lista del menu principal */
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.encabezado__menu__list a { /* menu principaññ  */
-    color: white;
-    padding: 5px;
-    border-radius: 2px;
-    text-decoration: none;
-}
-
-.encabezado__menu__list  a:hover { /* transiciones de color cuando pase el menu princial   */
-color: #86C3C6;
-}
-
-.imagenprincipal {
-    margin: 1% auto;
-    height: auto;
-    width: min-content;
-    overflow: hidden;
-    transition: all 4s;
 
 
-}
-main { /* para el documento  */
-    width: 100%;
+main { /* para el contenido  */
     border: 10px solid #A05898;
-    padding: 30px 35px;
   }
-  
-.contenido h2 {
-    text-align:center;
-    transition: all 4s; /* Para agregar la propiedad y cambiar el h2 al pasar el mouse  */
-    
-}
-.contenido h2:hover { /* Para agrandar el h2 al pasar el mouse  */
-    transform: scale(2);
 
-}
-.galeria {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
-    
-}  
-
-.galeria__imagen {
-    height: 30vh;
-    width: 30vh;
-    border:#6B1762 solid;
-
-}  
-
-.contacto{ /* para la lista del menu principal */
+.contacto{ /* para el formulario */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap; 
 }
-
-.pie {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 100%;
-    background: #6B1762
-}
-
