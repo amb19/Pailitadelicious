@@ -1,3 +1,4 @@
+/* Propiedades para crear un unico componete con varias opciones o alternativas */ /* Propiedades para reutilizar en muchos lugares */
 * { /* para reset */
   margin: 0;
   padding: 0;
@@ -53,5 +54,7 @@ footer {
   background-color: rgba(104, 169, 175, 0.4784313725);
   border-radius: 10px;
 }
+
+/* crear un grupo de propiedades, incluyen un parametro (variable)*/
 
 /*# sourceMappingURL=main.css.map */
